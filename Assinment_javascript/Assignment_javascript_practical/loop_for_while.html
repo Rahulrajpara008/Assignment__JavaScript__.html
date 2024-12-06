@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Print a 1 to 10 number
+      for (let i = 1; i <= 10; i++) {
+        console.log(`Number ${i}`);
+      }
+
+      console.log();
+      // While Loop
+      // Sum a even Number between 1 to 20
+      let num = 0;
+      let num2 = 1;
+
+      while (num <= 20) {
+        if (num2 % 2 === 0) {
+          num += num2;
+        }
+        num2++;
+      }
+      console.log(`Sum of even number is ${num}`);
+
+      //Do while
+
+      let user
+      do {
+        // Prompt the user for input
+        user = parseFloat(prompt("Enter a number greater than 10:"));
+      } while ( user <= 10)
+
+      console.log(`You entereduser : ${user}`)
+    </script>
+  </body>
+</html>
